@@ -300,5 +300,9 @@ function closePrivateWishesModal() {
     modal.classList.remove('fade-out');
   }, 300);
 }
-
+// Toggle Music Box Function
+function toggleMusicBox() {
+    const musicControl = document.getElementById('musicControl');
+    musicControl.classList.toggle('collapsed');
+}
 
